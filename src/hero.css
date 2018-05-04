@@ -1,0 +1,57 @@
+header {
+    -webkit-transform-style: inherit;
+    transform-style: inherit;
+    color: #f8f8f8;
+    background-color: #5b9c98;
+    padding: 5vw;
+}
+header div {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+}
+
+header a:link, header a:visited {
+    color: #43ffa1;
+    text-decoration: none;
+}
+header a:hover, a:hover:visited  {
+    text-decoration: underline;
+}
+header h2 {
+    font-size: 1.5em;
+    color: #fff;
+    font-weight: 100;
+    padding: 0;
+    margin: 0
+}
+.highlight {
+    color: #ddf
+}
+#heroContent {
+    display: block;
+    max-width: 900px;
+    margin: auto 20px 0 20px;
+    -webkit-animation-name: animateload;
+    -webkit-animation-duration: 2s;
+    animation-name: animateload;
+    animation-duration: 2s
+}
+img {
+    margin: auto 0 auto 40px;
+    -webkit-animation-name: animateload;
+    -webkit-animation-duration: 2s;
+    animation-name: animateload;
+    animation-duration: 3s
+}
+p {
+    text-align: justify;
+}
+.tags {
+    text-align: left;
+    opacity: 0.8;
+    margin-top: 30px;
+}
+.tags::before {
+    content: '#'
+}

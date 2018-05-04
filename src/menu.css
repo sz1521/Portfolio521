@@ -1,0 +1,49 @@
+#menubar {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-flow: row;
+    align-content: space-between;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    -webkit-animation-name: animateload;
+    -webkit-animation-duration: 2s;
+    animation-name: animateload;
+    animation-duration: 2s
+}
+.backdrop-blur {
+    background-color: rgba(30, 30, 30, 0.9);
+  }
+  
+@supports ((-webkit-backdrop-filter: blur(5px)) or (backdrop-filter: blur(5px))) {
+    .backdrop-blur {
+        background-color: rgba(30, 30, 30, 0.7);
+        backdrop-filter: blur(5px); /* For future compatibility */
+        -ms-backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+        -moz-backdrop-filter: blur(5px);
+        -o-backdrop-filter: blur(5px);
+    }
+}
+#menubar * {
+    color: #e0e0e0;
+    padding: 0 5px 10px 20px;
+    list-style-type: none;
+    align-self: center;
+    text-transform: uppercase;
+    text-decoration: none;   
+}
+#menubar a:hover {
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+#menubar .left {
+    margin-left: auto;
+    margin-right: 40px;
+}
