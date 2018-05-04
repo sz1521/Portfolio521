@@ -1,3 +1,3 @@
 # Portfolio521
-Simple one page portofolio and cv
+Simple one page portfolio and cv
 with ReactJS
