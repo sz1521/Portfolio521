@@ -10,7 +10,7 @@ class Footer extends Component {
     render() {
         return (
             <footer>
-                <p><IoIosEmail/> <a href="mailto:sami521@gmail.com">Contact</a></p>
+                <p><IoIosEmail/> <a href="mailto:sami521@gmail.com">Contact me</a></p>
                 <p><IoSocialLinkedin/> <a href="http://linkedin.com/in/sami521" target="_blank">My Linkedin profile</a></p>
                 <p><IoCode/> React + Redux + WebPack</p>
                 <p><IoSocialHtml5/> Html5 + CSS3 + JS / ES6+ </p>

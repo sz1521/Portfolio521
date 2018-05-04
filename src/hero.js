@@ -10,16 +10,19 @@ class Hero extends Component {
                 <div>
                     <img src={require('./img/sh.png')} style={{ width: 224, height: 224 }} />
                     <div id="heroContent">
-                        <h2>S A M I <strong>H E I K K I N E N</strong></h2>
-                        <p>Senior UX Specialist - Developer &#38; Designer 
-                        &nbsp;&nbsp;<a href="mailto:sami521@gmail.com"><IoIosEmail /></a> 
-                        &nbsp;&nbsp;<a href="http://linkedin.com/in/sami521" target="_blank"><IoSocialLinkedin /></a></p>
+                        <h2 className="flexrow"><span>S A M I</span>&nbsp;<span><strong>H E I K K I N E N</strong></span></h2>
+                        <p className="flexrow"><span>Senior UX Specialist</span>&nbsp;-&nbsp;<span><strong>Developer &#38; Designer</strong>&nbsp;&nbsp;</span>
+                            <span id="icons">
+                                <a href="mailto:sami521@gmail.com"><IoIosEmail /></a>
+                                <a href="http://linkedin.com/in/sami521" target="_blank"><IoSocialLinkedin /></a>
+                            </span>
+                        </p>
                         <h3>My objectives</h3>
                         <p>To work in a position I am able to
                         use my talents and long experience
                         to make the products greatly better
-                        by coding very usable
-                        applications (front end to back end) and/or designing great user experiences.</p>
+                        by <strong>coding</strong> very usable
+                        applications (front end to back end) and/or <strong>designing</strong> great user experiences.</p>
                         <p>To keep on being curious about new
                         things and always learning.</p>
                         <h3>About me</h3>
@@ -33,7 +36,7 @@ class Hero extends Component {
                         </p>
                     </div>
                 </div>
-            </header>
+            </header >
         );
     }
 

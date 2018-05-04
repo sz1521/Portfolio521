@@ -15,8 +15,16 @@ header a:link, header a:visited {
     color: #43ffa1;
     text-decoration: none;
 }
-header a:hover, a:hover:visited  {
+header a:hover, header a:hover:visited  {
     text-decoration: underline;
+}
+#icons a:link, #icons a:visited {
+    padding: 2px 6px 4px 6px;
+    text-decoration: none;
+}
+#icons a:hover, #icons a:hover:visited  {
+    background-color: #3b7c78;
+    border-radius: 4px;
 }
 header h2 {
     font-size: 1.5em;
@@ -54,4 +62,9 @@ p {
 }
 .tags::before {
     content: '#'
+}
+.flexrow {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
 }

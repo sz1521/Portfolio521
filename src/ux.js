@@ -24,7 +24,7 @@ class Ux extends Component {
                     <li>Testing new UI features with users using <strong>light prototypes</strong> (local or online, Sketch / Invision)</li>
                     <li>Participating customer meetings (discussion about <strong>user requirements</strong>)</li>
                     <li>Validate design by <strong>user research</strong></li>
-                    <li>Daily co-operation with other <b>UX team member</b></li></ul>
+                    <li>Daily co-operation with other <strong>UX team members</strong></li></ul>
                 <h3>Guidance</h3>
                 <ul>
                     <li><strong>Guiding developers</strong> to implement UI through whole project</li><li>Co-operation in UI development by<strong> iterative design and development</strong>:<br />Participating from a draft to a final product, changes are welcome during the process</li>
