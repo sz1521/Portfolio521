@@ -10,7 +10,6 @@ class PortfolioMain extends Component {
   render() {
     return (
       <div id="layout">
-        <a name="start">&nbsp;</a>
         <Menu />
         <div id="content">
           <Hero />

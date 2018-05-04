@@ -6,10 +6,10 @@
     align-content: space-between;
     flex-wrap: nowrap;
     width: 100%;
-    height: 80px;
     position: fixed;
     top: 0;
     left: 0;
+    padding: 25px 0 25px 0; 
     z-index: 100;
     -webkit-animation-name: animateload;
     -webkit-animation-duration: 2s;
@@ -30,20 +30,19 @@
         -o-backdrop-filter: blur(5px);
     }
 }
-#menubar * {
+#menubar li * {
     color: #e0e0e0;
-    padding: 0 5px 10px 20px;
+    padding: 0 6vw 0 6vw;
     list-style-type: none;
     align-self: center;
     text-transform: uppercase;
-    text-decoration: none;   
+    text-decoration: none;
 }
-#menubar a:hover {
+#menubar li a:hover {
     color: white;
     cursor: pointer;
     text-decoration: none;
 }
-#menubar .left {
+#menubar > .left {
     margin-left: auto;
-    margin-right: 40px;
 }
