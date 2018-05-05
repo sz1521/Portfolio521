@@ -41,16 +41,16 @@ header h2 {
     max-width: 900px;
     margin: auto 20px 0 20px;
     -webkit-animation-name: animateload;
-    -webkit-animation-duration: 2s;
+    -webkit-animation-duration: 4s;
     animation-name: animateload;
-    animation-duration: 2s
+    animation-duration: 4s
 }
 img {
     margin: auto 0 auto 40px;
     -webkit-animation-name: animateload, animatemove;
     -webkit-animation-duration: 2s;
     animation-name: animateload, animatemove;
-    animation-duration: 3s;
+    animation-duration: 2s;
     background-color: #4b8c88;
     border-radius: 112px;
 }
