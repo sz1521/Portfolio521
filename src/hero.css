@@ -13,9 +13,6 @@ header div {
     flex-flow: row;
     -webkit-flex-wrap: wrap;    
     flex-wrap: wrap;
-    -ms-flex: 1;
-    -webkit-flex: 1;
-    flex: 1;
 }
 
 header a:link, header a:visited {
