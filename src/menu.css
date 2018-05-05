@@ -1,9 +1,14 @@
 #menubar {
     padding: 0;
     margin: 0;
+    display: -ms-flexbox;
+    display: -webkit-flex; 
     display: flex;
+    -ms-flex-flow: row;    
+    -webkit-flex-flow: row;
     flex-flow: row;
     align-content: space-between;
+    -webkit-flex-wrap: nowrap;    
     flex-wrap: nowrap;
     width: 100%;
     position: fixed;

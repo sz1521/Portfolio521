@@ -1,10 +1,13 @@
 footer {
     margin: 0;
     margin-top: 20px;
+    display: -ms-flexbox;
+    display: -webkit-flexbox;
     display: flex;
     background-color: hsl(0, 0%, 13%);
     color: #f0f0f0;
-    display: flex;
+    -ms-flex-flow: column;  
+    -webkit-flex-flow: column;
     flex-flow: column;
     padding-top: 40px;    
     padding-bottom: 40px;

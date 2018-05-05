@@ -16,16 +16,24 @@ h2 {
 }
 h3 {
   font-size: 1em;
-  margin-top: 30px;   
+  margin-top: 30px;
 }
 #layout {
-  display: flex;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;  
+  -ms-flex-flow: column;  
+  -webkit-flex-flow: column;  
   flex-flow: column;
   height: 100vh;
   min-height: 800px;
 }
 #content {
+  display: -ms-flexbox;
+  display: -webkit-flex; 
   display: flex;
+  -ms-flex-flow: column;    
+  -webkit-flex-flow: column;
   flex-flow: column;
   margin-top: 90px;
 }
