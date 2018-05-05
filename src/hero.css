@@ -49,7 +49,7 @@ header h2 {
     overflow-y: hidden;
 }
 img {
-    margin: auto 0 auto 40px;
+    margin: 0 0 10px 40px;
     -webkit-animation: animateload 2s, animatezoom 3s;
     animation: animateload 2s, animatezoom 3s;
     background-color: #4b8c88;
