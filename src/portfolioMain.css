@@ -56,3 +56,8 @@ article {
   from{ opacity:0 }
   to{ opacity:1 }
 }
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  body {
+       min-width: 1024px;
+  }
+}

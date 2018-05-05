@@ -93,3 +93,9 @@ p {
   from{ max-height:98px; } 
   to{ max-height: 2000px }
 }
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    header div {
+         min-height: calc(100vh - 33vw)
+    }
+}
