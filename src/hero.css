@@ -41,16 +41,14 @@ header h2 {
     max-width: 900px;
     margin: auto 20px 0 20px;
     -webkit-animation-name: animateload;
-    -webkit-animation-duration: 4s;
+    -webkit-animation-duration: 7s;
     animation-name: animateload;
-    animation-duration: 4s
+    animation-duration: 7s;
 }
 img {
     margin: auto 0 auto 40px;
-    -webkit-animation-name: animateload, animatemove;
-    -webkit-animation-duration: 2s;
-    animation-name: animateload, animatemove;
-    animation-duration: 2s;
+    -webkit-animation: animateload 2s, animatezoom 3s;
+    animation: animateload 2s, animatezoom 3s;
     background-color: #4b8c88;
     border-radius: 112px;
 }
@@ -70,11 +68,11 @@ p {
     flex-flow: row;
     flex-wrap: wrap;
 }
-@-webkit-keyframes animatemove {
+@-webkit-keyframes animatezoom {
     from{ width:0;height:0; } 
     to{ width:224px;height:225px }
 }
-@keyframes animatemove { 
+@keyframes animatezoom { 
   from{ width:0;height:0; } 
   to{ width:224px;height:225px }
 }
