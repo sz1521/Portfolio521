@@ -34,10 +34,8 @@ article {
   padding-right: 10vw;
   padding-bottom: 40px;  
   background: #f0f0f0;
-  -webkit-animation-name: animateload;
-  -webkit-animation-duration: 6s;
-  animation-name: animateload;
-  animation-duration: 6s
+  -webkit-animation: animateload both 4s 3s;
+  animation: animateload both 4s 3s;
 }
 .green {
   background-color: #6dbeb9

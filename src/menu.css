@@ -11,8 +11,9 @@
     left: 0;
     padding: 25px 0 25px 0; 
     z-index: 100;
-    -webkit-animation-name: animateload;
-    -webkit-animation-duration: 2s;
+    -webkit-animation: animateload both 4s 3s;
+    animation: animateload both 4s 3s;
+   
     animation-name: animateload;
     animation-duration: 2s
 }

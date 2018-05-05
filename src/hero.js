@@ -8,7 +8,7 @@ class Hero extends Component {
         return (
             <header>
                 <div>
-                    <img src={require('./img/sh.png')} style={{ width: 224, height: 224 }} />
+                    <img src={require('./img/sh.png')}/>
                     <div id="heroContent">
                         <h2 className="flexrow"><span>S A M I</span>&nbsp;<span><strong>H E I K K I N E N</strong></span></h2>
                         <p className="flexrow"><span>Senior UX Specialist</span>&nbsp;-&nbsp;<span><strong>Developer &#38; Designer</strong>&nbsp;&nbsp;</span>

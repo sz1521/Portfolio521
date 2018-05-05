@@ -40,10 +40,9 @@ header h2 {
     display: block;
     max-width: 900px;
     margin: auto 20px 0 20px;
-    -webkit-animation-name: animateload;
-    -webkit-animation-duration: 7s;
-    animation-name: animateload;
-    animation-duration: 7s;
+    -webkit-animation: animateload 7s, animateheight both 5s 3s;
+    animation: animateload 7s, animateheight both 5s 3s;
+    overflow-y: hidden;
 }
 img {
     margin: auto 0 auto 40px;
@@ -75,4 +74,12 @@ p {
 @keyframes animatezoom { 
   from{ width:0;height:0; } 
   to{ width:224px;height:225px }
+}
+@-webkit-keyframes animateheight{
+  from{ max-height:98px; } 
+  to{ max-height: 2000px }
+}
+@keyframes animateheight { 
+  from{ max-height:98px; } 
+  to{ max-height: 2000px }
 }
