@@ -47,10 +47,12 @@ header h2 {
 }
 img {
     margin: auto 0 auto 40px;
-    -webkit-animation-name: animateload;
+    -webkit-animation-name: animateload, animatemove;
     -webkit-animation-duration: 2s;
-    animation-name: animateload;
-    animation-duration: 3s
+    animation-name: animateload, animatemove;
+    animation-duration: 3s;
+    background-color: #4b8c88;
+    border-radius: 112px;
 }
 p {
     text-align: justify;
@@ -67,4 +69,12 @@ p {
     display: flex;
     flex-flow: row;
     flex-wrap: wrap;
+}
+@-webkit-keyframes animatemove {
+    from{ width:0;height:0; } 
+    to{ width:224px;height:225px }
+}
+@keyframes animatemove { 
+  from{ width:0;height:0; } 
+  to{ width:224px;height:225px }
 }
