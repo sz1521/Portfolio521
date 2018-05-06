@@ -12,11 +12,10 @@ class Ux extends Component {
                 <h1>UX Design</h1>
                 <p>I have over 15 years of professional experience in UI/UX design. My passions are usability and visual quality of user interfaces (<strong>desktop</strong>, <strong>web</strong>, <strong>mobile</strong>), I want to provide the best user experience available for end users.</p>
                 <p>I have been working long time in UI projects from design to implementation, so I am understanding the software architecture and development process easily. I always make only implementable specifications: I can give guidance and coding help how to implement plans with a prototype into a final product.</p>
-                <p>I also have a strong graphic design experience. My specialty is application theming and UI controls: implementing style files from the design guidelines and integrating resulting theme into the final product.</p> 
-                <p>I am also very motived in working with agile, scrum projects and couching team in a role of Scrum Master.</p>
-                <p>Latest work was participating in very large health care information system work by making designs and giving gudance for tens of products at once. New products and features are coming in very fast-pased all the time and I really needed to use my talent of understanding new things fast.</p>
-                <h2>How I work in agile projects</h2> 
-                <h3>Design</h3> 
+                <p>I also have a strong graphic design experience. I am also very motived in working with agile, scrum projects and couching team in a role of Scrum Master.</p>
+                <p>The latest work was participating in very large health care information system work by making designs and giving guidance for tens of products at once. New products and features are coming in very fast-pased all the time and I really needed to use my talent of understanding new things fast.</p>
+                <h2>How I work in agile projects</h2>
+                <h3>Design</h3>
                 <ul>
                     <li><strong>Personas,&nbsp;</strong><strong>use cases</strong> and <strong>user research</strong> as input for design</li>
                     <li><strong>Iterative </strong>doing <strong>wire frames</strong> (UI interaction design and testing), <strong>UI specs</strong> (for implementation)</li>
@@ -24,7 +23,9 @@ class Ux extends Component {
                     <li>Testing new UI features with users using <strong>light prototypes</strong> (local or online, Sketch / Invision)</li>
                     <li>Participating customer meetings (discussion about <strong>user requirements</strong>)</li>
                     <li>Validate design by <strong>user research</strong></li>
-                    <li>Daily co-operation with other <strong>UX team members</strong></li></ul>
+                    <li>Daily co-operation with other <strong>UX team members</strong></li>
+                    <li>Participating in design system work (guidelines, design patterns, templates, UI controls)</li>
+                </ul>
                 <h3>Guidance</h3>
                 <ul>
                     <li><strong>Guiding developers</strong> to implement UI through whole project</li><li>Co-operation in UI development by<strong> iterative design and development</strong>:<br />Participating from a draft to a final product, changes are welcome during the process</li>
@@ -47,7 +48,7 @@ class Ux extends Component {
                 </ul>
                 <h3>Hobbyish</h3>
                 <ul
-                    ><li>Graphic software</li><li>Music software</li><li>Games</li>
+                ><li>Graphic software</li><li>Music software</li><li>Games</li>
                 </ul>
             </article>
         );

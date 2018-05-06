@@ -13,8 +13,9 @@ class Ux extends Component {
       <article id="dev">
         <Element name="devScroll"></Element>
         <h1>Front-end coding</h1>
-        <p>I am very motivated to work in UI/UX development roles in Agile enviroments (Scrum). I have a long experience in web development and design (started already in the 90's). I am also experienced in Microsoft technologies for over 10 years.</p>
-        <p>Combined with my design experience, I am very capable as a UI/UX developer that gets best results to end users.</p>
+        <p>I am very motivated on working in UI/UX development roles in Agile enviroments (Scrum). I have a long experience in web development and design (started already in the 90's). I am also experienced in development with Microsoft technologies for over 10 years in many projects.</p>
+        <p>Combined with my design experience, I am very capable as a <strong>UI/UX developer</strong> that gets best results to end users. In that role, I have worked in projects from Telecom to Healthcare.</p>
+        <p>My specialties are application theming and UI control development: implementing style files and customized controls described in the design guidelines and integrating resulting theme library into the final product.</p>
         <h3>Web development</h3>
         <ul>
           <li>HTML5</li>
