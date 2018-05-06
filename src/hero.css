@@ -30,6 +30,10 @@ header a:hover, header a:hover:visited  {
     background-color: #3b7c78;
     border-radius: 4px;
 }
+#icons {
+    -webkit-animation: animateload both 2s 3s;
+    animation: animateload both 2s 3s;
+}
 header h2 {
     font-size: 1.5em;
     color: #fff;
@@ -42,7 +46,7 @@ header h2 {
 }
 #heroContent {
     display: block;
-    max-width: 900px;
+    max-width: 800px;
     margin: auto 20px 0 20px;
     -webkit-animation: animateload 7s, animateheight both 5s 3s;
     animation: animateload 7s, animateheight both 5s 3s;
@@ -56,6 +60,9 @@ img {
     border-radius: 112px;
     height: 225px;
     width: 224px;
+}
+#authorImg {
+    min-width: 270px;
 }
 p {
     text-align: justify;
@@ -86,16 +93,21 @@ p {
   to{ width:224px;height:225px }
 }
 @-webkit-keyframes animateheight{
-  from{ max-height:98px; } 
+  from{ max-height:96px; } 
   to{ max-height: 2000px }
 }
 @keyframes animateheight { 
-  from{ max-height:98px; } 
+  from{ max-height:96px; } 
   to{ max-height: 2000px }
 }
 
+/* IE fixes */
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    header {
+         height: 730px;
+         max-height: 730px;
+    }
     header div {
-         min-height: calc(100vh - 33vw)
+        flex-flow: column;
     }
 }

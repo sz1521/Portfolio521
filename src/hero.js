@@ -1,3 +1,6 @@
+import 'core-js/es6/map';
+import 'core-js/es6/set';
+
 import React, { Component } from 'react';
 import './hero.css';
 import IoSocialLinkedin from 'react-icons/lib/io/social-linkedin'
@@ -8,13 +11,13 @@ class Hero extends Component {
         return (
             <header>
                 <div>
-                    <img src={require('./img/sh.png')}/>
+                    <div id="authorImg"><img src={require('./img/sh.png')}/></div>
                     <div id="heroContent">
                         <h2 className="flexrow"><span>S A M I</span>&nbsp;<span><strong>H E I K K I N E N</strong></span></h2>
                         <p className="flexrow"><span>Senior UX Specialist</span>&nbsp;-&nbsp;<span><strong>Developer &#38; Designer</strong>&nbsp;&nbsp;</span>
                             <span id="icons">
-                                <a href="mailto:sami521@gmail.com"><IoIosEmail /></a>
-                                <a href="http://linkedin.com/in/sami521" target="_blank"><IoSocialLinkedin /></a>
+                                <a href={this.props.contactLink}><IoIosEmail /></a>
+                                <a href={this.props.linkedinLink} target="_blank"><IoSocialLinkedin /></a>
                             </span>
                         </p>
                         <h3>My objectives</h3>

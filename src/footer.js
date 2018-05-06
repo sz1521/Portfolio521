@@ -1,3 +1,6 @@
+import 'core-js/es6/map';
+import 'core-js/es6/set';
+
 import React, { Component } from 'react';
 import './footer.css';
 import IoSocialLinkedin from 'react-icons/lib/io/social-linkedin'
@@ -10,9 +13,9 @@ class Footer extends Component {
     render() {
         return (
             <footer>
-                <p><IoIosEmail/> <a href="mailto:sami521@gmail.com">Contact me</a></p>
-                <p><IoSocialLinkedin/> <a href="http://linkedin.com/in/sami521" target="_blank">My Linkedin profile</a></p>
-                <p><IoSocialGithub/> <a href="http://github.com/sz1521/Portfolio521" target="_blank">Code at GitHub</a></p>            
+                <p><IoIosEmail/> <a href={this.props.contactLink}>Contact me</a></p>
+                <p><IoSocialLinkedin/> <a href={this.props.linkedinLink} target="_blank">My Linkedin profile</a></p>
+                <p><IoSocialGithub/> <a href={this.props.githubLink} target="_blank">Code at GitHub</a></p>            
                 <p><IoCode/> React + Redux + WebPack</p>
                 <p><IoSocialHtml5/> Html5 + CSS3 + JS / ES6+ </p>
             </footer>
