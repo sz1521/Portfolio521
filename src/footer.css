@@ -2,23 +2,35 @@ footer {
     margin: 0;
     margin-top: 20px;
     display: -ms-flexbox;
-    display: -webkit-flexbox;
+    display: -webkit-flex;
+    display: -o-flex;    
     display: flex;
     background-color: hsl(0, 0%, 13%);
     color: #f0f0f0;
     -ms-flex-flow: column;  
+    -o-flex-flow: column;    
     -webkit-flex-flow: column;
     flex-flow: column;
     padding-top: 40px;    
     padding-bottom: 40px;
     padding-left: 10vw;
     padding-right: 10vw;
-    min-height: 270px;
+    min-height: 150px;
 }
 footer a:link, footer a:visited {
-    color: #7979f8;
+    color: #43ffa1;
     text-decoration: none;
+    padding: 2px 6px 4px 6px;
+    -ms-align-self: flex-start;
+    -o-align-self: flex-start;    
+    -webkit-align-self: flex-start;
+    align-self: flex-start
 }
 footer a:hover, footer a:hover:visited  {
-    text-decoration: underline;
+    background-color:  hsl(0, 0%, 5%);
+    border-radius: 4px;
+}
+footer p {
+    margin: 0;
+    padding: 2px 6px 4px 6px;
 }

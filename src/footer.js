@@ -13,9 +13,9 @@ class Footer extends Component {
     render() {
         return (
             <footer>
-                <p><IoIosEmail/> <a href={this.props.contactLink}>Contact me</a></p>
-                <p><IoSocialLinkedin/> <a href={this.props.linkedinLink} target="_blank">My Linkedin profile</a></p>
-                <p><IoSocialGithub/> <a href={this.props.githubLink} target="_blank">Code at GitHub</a></p>            
+                <a href={this.props.contactLink}><IoIosEmail/> Contact me</a>
+                <a href={this.props.linkedinLink} target="_blank"><IoSocialLinkedin/> My Linkedin profile</a>
+                <a href={this.props.githubLink} target="_blank"><IoSocialGithub/> Code at GitHub</a>        
                 <p><IoCode/> React + Redux + WebPack</p>
                 <p><IoSocialHtml5/> Html5 + CSS3 + JS / ES6+ </p>
             </footer>

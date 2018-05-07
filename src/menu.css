@@ -7,8 +7,11 @@
     -ms-flex-flow: row;    
     -webkit-flex-flow: row;
     flex-flow: row;
+    -ms-align-content: space-between;
+    -webkit-align-content: space-between;    
     align-content: space-between;
-    -webkit-flex-wrap: nowrap;    
+    -ms-flex-wrap: nowrap;
+    -webkit-flex-wrap: nowrap;
     flex-wrap: nowrap;
     width: 100%;
     position: fixed;
@@ -18,9 +21,6 @@
     z-index: 100;
     -webkit-animation: animateload both 4s 3s;
     animation: animateload both 4s 3s;
-   
-    animation-name: animateload;
-    animation-duration: 2s
 }
 .backdrop-blur {
     background-color: rgba(30, 30, 30, 0.9);
@@ -38,6 +38,10 @@
 }
 #menubar li {
     list-style-type: none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    -webkit-user-select:none;
+    user-select:none;    
 }
 #menubar li * {
     color: #e0e0e0;
@@ -47,9 +51,14 @@
     text-decoration: none;
 }
 #menubar li a:hover {
-    color: white;
+    color: #43ffa1;
     cursor: pointer;
     text-decoration: none;
+}
+@media (hover:on-demand) {
+    #menubar li a:hover {
+        color: #e0e0e0;        
+    }
 }
 #menubar > .left {
     margin-left: auto;
