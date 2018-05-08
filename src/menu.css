@@ -43,7 +43,7 @@
     -webkit-user-select:none;
     user-select:none;    
 }
-#menubar li * {
+#menubar li a {
     color: #e0e0e0;
     padding: 0 6vw 0 6vw;
     align-self: center;
@@ -55,7 +55,7 @@
     cursor: pointer;
     text-decoration: none;
 }
-@media (hover:on-demand) {
+@media (hover:none), (hover:on-demand) {
     #menubar li a:hover {
         color: #e0e0e0;        
     }
@@ -63,3 +63,15 @@
 #menubar > .left {
     margin-left: auto;
 }
+#menubar li span {
+    -ms-flex-wrap: nowrap;
+    -webkit-flex-wrap: nowrap;  
+    flex-wrap: nowrap
+}
+
+/* IE fixes */
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    #menubar {
+         min-width: 300px;
+    }
+  }

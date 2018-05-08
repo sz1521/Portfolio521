@@ -1,9 +1,13 @@
 import React, { Component } from 'react';
 import './ux.css';
+import IoPaintbrush from 'react-icons/lib/io/paintbrush';
+import IoAndroidPeople from 'react-icons/lib/io/android-people';
+import IoIosCheckmark from 'react-icons/lib/io/ios-checkmark';
+import IoIosStopwatch from 'react-icons/lib/io/ios-stopwatch';
+import IoIosGameControllerB from 'react-icons/lib/io/ios-game-controller-b';
 let Scroll = require('react-scroll');
 let scroller = Scroll.scroller;
 let Element = Scroll.Element;
-
 class Ux extends Component {
     render() {
         return (
@@ -15,7 +19,7 @@ class Ux extends Component {
                 <p>I also have a strong graphic design experience. I am also very motived in working with agile, scrum projects and couching team in a role of Scrum Master.</p>
                 <p>The latest work was participating in very large health care information system work by making designs and giving guidance for tens of products at once. New products and features are coming in very fast-pased all the time and I really needed to use my talent of understanding new things fast.</p>
                 <h2>How I work in agile projects</h2>
-                <h3>Design</h3>
+                <h3><IoPaintbrush/> Design</h3>
                 <ul>
                     <li><strong>Personas,&nbsp;</strong><strong>use cases</strong> and <strong>user research</strong> as input for design</li>
                     <li><strong>Iterative </strong>doing <strong>wire frames</strong> (UI interaction design and testing), <strong>UI specs</strong> (for implementation)</li>
@@ -26,29 +30,33 @@ class Ux extends Component {
                     <li>Daily co-operation with other <strong>UX team members</strong></li>
                     <li>Participating in design system work (guidelines, design patterns, templates, UI controls)</li>
                 </ul>
-                <h3>Guidance</h3>
+                <h3><IoAndroidPeople/> Guidance</h3>
                 <ul>
                     <li><strong>Guiding developers</strong> to implement UI through whole project</li><li>Co-operation in UI development by<strong> iterative design and development</strong>:<br />Participating from a draft to a final product, changes are welcome during the process</li>
                     <li>Helping in <strong>UI problem solving</strong> and fixing (sometimes involves advanced UI coding tasks)</li>
                     <li><strong>Validating UI</strong> when some UI part is ready (for testing)</li><li>Validation by <strong>continues UI testing</strong></li>
                     <li>Participating in sprint demos</li>
                 </ul>
-                <h3>Reviewing</h3>
+                <h3><IoIosCheckmark/> Reviewing</h3>
                 <ul>
                     <li><strong>UX review </strong>after a feature specification is ready for approving</li>
                     <li>UX review after implementation is almost ready</li>
                     <li><strong>Usability / user testing</strong></li><li>Participating in <strong>validation testing</strong></li>
                     <li>Doing automatic usage <strong>data research</strong></li>
                 </ul>
-                <h2>Domain knowledge, example customers &amp; end users</h2><h3>Professional</h3>
+                <h2>Domain knowledge, example customers &amp; end users</h2>
+                <h3><IoIosStopwatch/> Professional</h3>
                 <ul>
                     <li><strong>Telecom</strong>: Nokia (network admins, mobile phone service professionals)</li>
                     <li><strong>Healthcare</strong>: Public healthcare (doctors, nurses, citizens)</li>
                     <li><strong>Entertainment</strong>: Yle (citizens), Nokia (citizens)</li>
                 </ul>
-                <h3>Hobbyish</h3>
-                <ul
-                ><li>Graphic software</li><li>Music software</li><li>Games</li>
+                <h3><IoIosGameControllerB/> Hobbyish</h3>
+                <ul>
+                    <li>Graphic software</li>
+                    <li>Music software</li>
+                    <li>Games</li>
+                    <li>VR/AR</li>
                 </ul>
             </article>
         );
