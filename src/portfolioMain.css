@@ -43,13 +43,16 @@ h3 {
   margin-top: 90px;
 }
 article {
-  padding-left: 10vw;
-  padding-right: 10vw;
+  padding-left: 5vw;
+  padding-right: 5vw;
   padding-bottom: 40px;  
   background: #f0f0f0;
   -webkit-animation: animateload both 4s 3s;
   -o-animation: animateload both 4s 3s;  
   animation: animateload both 4s 3s;
+}
+p,h1,h2,h3,lu {
+  max-width: 1200px;  
 }
 .green {
   background-color: #6dbeb9

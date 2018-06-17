@@ -20,6 +20,7 @@ class Ux extends Component {
         <p>Combined with my design experience, I am very capable as a <strong>UI/UX developer</strong> that gets best results to end users. In that role, I have worked in projects from Telecom to Healthcare.</p>
         <p>My specialties are application theming and UI control development: implementing style files and customized controls described in the design guidelines and integrating resulting theme library into the final product.</p>
         <p>I am also very motivated to work in <strong>Lead</strong> and <strong>Scrum Master roles</strong>.</p>
+        <p>Currently I am working with different projects as an UX developer, from corporate web page implementations to AI data visualization application.</p>       
         <h3><IoSocialCss3/> Web development</h3>
         <ul>
           <li>HTML5</li>
