@@ -47,13 +47,13 @@ header h2 {
 #heroContent {
     display: block;
     max-width: 800px;
-    margin: auto 20px 0 20px;
+    margin: auto 0 0 0;
     -webkit-animation: animateload 7s, animateheight both 5s 3s;
     animation: animateload 7s, animateheight both 5s 3s;
     overflow-y: hidden;
 }
 img {
-    margin: 0 0 10px 40px;
+    margin: 0 0 10px 0;
     -webkit-animation: animateload 2s, animatezoom 3s;
     animation: animateload 2s, animatezoom 3s;
     background-color: #4b8c88;

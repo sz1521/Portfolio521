@@ -5,8 +5,8 @@ import IoAndroidPeople from 'react-icons/lib/io/android-people';
 import IoIosCheckmark from 'react-icons/lib/io/ios-checkmark';
 import IoIosStopwatch from 'react-icons/lib/io/ios-stopwatch';
 import IoIosGameControllerB from 'react-icons/lib/io/ios-game-controller-b';
+
 let Scroll = require('react-scroll');
-let scroller = Scroll.scroller;
 let Element = Scroll.Element;
 class Ux extends Component {
     render() {
