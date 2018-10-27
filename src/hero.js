@@ -25,7 +25,7 @@ class Hero extends Component {
                         use my talents and long experience
                         to make the products greatly better
                         by <strong>developing</strong> very usable
-                        applications (front end to back end), <strong>designing</strong> great user experiences and/or leading team(s) in software development.</p>
+                        applications (front end to back end), <strong>designing</strong> great user experiences and/or <strong>leading</strong> team(s) in software development.</p>
                         <p>To keep on being curious about new
                         things and always learning.</p>
                         <h3>About me</h3>
