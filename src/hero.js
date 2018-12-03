@@ -14,7 +14,7 @@ class Hero extends Component {
                     <div id="authorImg"><img src={require('./img/sh.png')}/></div>
                     <div id="heroContent">
                         <h2 className="flexrow"><span>S A M I</span>&nbsp;<span><strong>H E I K K I N E N</strong></span></h2>
-                        <p className="flexrow"><span>Senior UX Specialist</span>&nbsp;-&nbsp;<span><strong>Developer &#38; Designer -  ScM &#38; Lead</strong>&nbsp;&nbsp;</span>
+                        <p className="flexrow"><span>UX DEVELOPER</span>&nbsp;-&nbsp;<span><strong>Developer &#38; Designer -  ScM &#38; Lead</strong>&nbsp;&nbsp;</span>
                             <span id="icons">
                                 <a href={this.props.contactLink}><IoIosEmail /></a>
                                 <a href={this.props.linkedinLink} target="_blank"><IoSocialLinkedin /></a>
