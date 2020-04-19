@@ -1,113 +1,137 @@
 header {
-    -webkit-transform-style: inherit;
-    transform-style: inherit;
-    color: #f8f8f8;
-    background-color: #5b9c98;
-    padding: 5vw;
+  -webkit-transform-style: inherit;
+  transform-style: inherit;
+  color: #f8f8f8;
+  background-color: #5b9c98;
+  padding: 5vw;
 }
 header div {
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-flex-flow: row;    
-    flex-flow: row;
-    -webkit-flex-wrap: wrap;    
-    flex-wrap: wrap;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row;
+  flex-flow: row;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
-header a:link, header a:visited {
-    color: #43ffa1;
-    text-decoration: none;
+header a:link,
+header a:visited {
+  color: #43ffa1;
+  text-decoration: none;
 }
-header a:hover, header a:hover:visited  {
-    text-decoration: underline;
+header a:hover,
+header a:hover:visited {
+  text-decoration: underline;
 }
-#icons a:link, #icons a:visited {
-    padding: 2px 6px 4px 6px;
-    text-decoration: none;
+#icons a:link,
+#icons a:visited {
+  padding: 2px 6px 4px 6px;
+  text-decoration: none;
 }
-#icons a:hover, #icons a:hover:visited  {
-    background-color: #3b7c78;
-    border-radius: 4px;
+#icons a:hover,
+#icons a:hover:visited {
+  background-color: #3b7c78;
+  border-radius: 4px;
 }
 #icons {
-    -webkit-animation: animateload both 2s 3s;
-    animation: animateload both 2s 3s;
+  -webkit-animation: animateload both 2s 3s;
+  animation: animateload both 2s 3s;
 }
 header h2 {
-    font-size: 1.5em;
-    color: #fff;
-    font-weight: 100;
-    padding: 0;
-    margin: 0
+  font-size: 1.5em;
+  color: #fff;
+  font-weight: 100;
+  padding: 0;
+  margin: 0;
 }
 .highlight {
-    color: #ddf
+  color: #ddf;
 }
 #heroContent {
-    display: block;
-    max-width: 800px;
-    margin: auto 20px 0 20px;
-    -webkit-animation: animateload 7s, animateheight both 5s 3s;
-    animation: animateload 7s, animateheight both 5s 3s;
-    overflow-y: hidden;
+  display: block;
+  max-width: 800px;
+  margin: auto 20px 0 20px;
+  -webkit-animation: animateload 6s, animateheight both 5s 3s ease;
+  animation: animateload 7s, animateheight both 5s 3s;
+  overflow-y: hidden;
 }
 img {
-    margin: 0 0 10px 40px;
-    -webkit-animation: animateload 2s, animatezoom 3s;
-    animation: animateload 2s, animatezoom 3s;
-    background-color: #4b8c88;
-    border-radius: 112px;
-    height: 225px;
-    width: 224px;
+  margin: 0 0 10px 40px;
+  -webkit-animation: animateload 2s, animatezoom 3s ease;
+  animation: animateload 2s, animatezoom 3s ease;
+  background-color: #4b8c88;
+  border-radius: 112px;
+  height: 225px;
+  width: 224px;
 }
 #authorImg {
-    min-width: 270px;
+  min-width: 270px;
 }
 p {
-    text-align: justify;
+  text-align: justify;
 }
 .tags {
-    text-align: left;
-    opacity: 0.8;
-    margin-top: 30px;
+  text-align: left;
+  opacity: 0.8;
+  margin-top: 30px;
 }
 .tags::before {
-    content: '#'
+  content: "#";
 }
 .flexrow {
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-flex-flow: row;
-    flex-flow: row;
-    -webkit-flex-wrap: wrap;
-    flex-wrap: wrap;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row;
+  flex-flow: row;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 @-webkit-keyframes animatezoom {
-    from{ width:0;height:0; } 
-    to{ width:224px;height:225px }
+  from {
+    width: 0;
+    height: 0;
+  }
+  to {
+    width: 224px;
+    height: 225px;
+  }
 }
-@keyframes animatezoom { 
-  from{ width:0;height:0; } 
-  to{ width:224px;height:225px }
+@keyframes animatezoom {
+  from {
+    width: 0;
+    height: 0;
+  }
+  to {
+    width: 224px;
+    height: 225px;
+  }
 }
-@-webkit-keyframes animateheight{
-  from{ max-height:96px; } 
-  to{ max-height: 2000px }
+@-webkit-keyframes animateheight {
+  from {
+    max-height: 96px;
+  }
+  to {
+    max-height: 2000px;
+  }
 }
-@keyframes animateheight { 
-  from{ max-height:96px; } 
-  to{ max-height: 2000px }
+@keyframes animateheight {
+  from {
+    max-height: 96px;
+  }
+  to {
+    max-height: 2000px;
+  }
 }
 
 /* IE fixes */
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-    header {
-         height: 730px;
-         max-height: 730px;
-    }
-    header div {
-        flex-flow: column;
-    }
+  header {
+    height: 730px;
+    max-height: 730px;
+  }
+  header div {
+    flex-flow: column;
+  }
 }

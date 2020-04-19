@@ -1,3 +1,12 @@
 #ux {
   background-color: #fdfdfd;
 }
+#ux a:link,
+#ux a:visited {
+  color: #666;
+  text-decoration: none;
+}
+#ux a:hover,
+#ux a:hover:visited {
+  text-decoration: underline;
+}
