@@ -9,8 +9,7 @@ import IoCoffee from "react-icons/lib/io/coffee";
 let Scroll = require("react-scroll");
 let scroller = Scroll.scroller;
 let Element = Scroll.Element;
-
-class Ux extends Component {
+class Dev extends Component {
   render() {
     return (
       <article id="dev">
@@ -56,6 +55,7 @@ class Ux extends Component {
           <li>JavaScript</li>
           <li>PHP</li>
           <li>MySQL</li>
+          <li>Node.js</li>
           <li>Bootstrap</li>
           <li>Angular 1 / 2+</li>
           <li>Ionic 1 / 2</li>
@@ -90,4 +90,4 @@ class Ux extends Component {
   }
 }
 
-export default Ux;
+export default Dev;
