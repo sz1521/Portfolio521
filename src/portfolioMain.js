@@ -15,7 +15,7 @@ class PortfolioMain extends Component {
     this.state = {
       cvAddress:
         "https://drive.google.com/open?id=1Our07xMStO5OOBikCU63SG8hKG95RzKj",
-      gitHubAddress: "http://github.com/sz1521/Portfolio521",
+      gitHubAddress: "http://github.com/sz1521",
       linkedinAddress: "http://linkedin.com/in/sami521",
       contactAdress: "mailto:sami521@gmail.com"
     };
