@@ -50,6 +50,7 @@ const Dev = () => {
         <li>CSS3</li>
         <li>React</li>
         <li>JavaScript</li>
+        <li>TypeScript</li>
         <li>PHP</li>
         <li>MySQL</li>
         <li>Node.js</li>
@@ -69,7 +70,7 @@ const Dev = () => {
         <li>.Net</li>
         <li>C#</li>
         <li>WPF</li>
-        <li>XAML (Advanced UI coding, expert level XAML styling)</li>
+        <li>XAML</li>
       </ul>
       <h3>
         <IoCoffee /> Backend and tools
