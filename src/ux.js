@@ -145,6 +145,9 @@ const Ux = () => {
           </a>
           )
         </li>
+        <li>
+          <strong>Accounting</strong>
+        </li>
       </ul>
       <h3>
         <IoIosGameControllerB /> Hobbyish
