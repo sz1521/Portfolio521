@@ -69,7 +69,7 @@ const Hero = props => {
             UI software, UI design, front-end, interaction design, concept
             design, usability, graphic design, user experience, requirements,
             scrum, scm, lead, use cases, user stories, Photoshop, Sketch, html,
-            css, Angular, React, UI graphics, visual styles, application
+            css, React, Angular, UI graphics, visual styles, application
             skinning, UX architecture, XAML, Expression Blend, prototyping,
             desktop, mobile, web
           </p>
