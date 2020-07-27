@@ -21,7 +21,6 @@ const Hero = props => {
             </span>
           </h2>
           <p className="flexrow">
-            <span>Lead Software Developer</span>&nbsp;-&nbsp;
             <span>
               <strong>Developer &#38; Designer - ScM &#38; Lead</strong>
               &nbsp;&nbsp;
@@ -39,8 +38,10 @@ const Hero = props => {
           <p>
             To work in a position I am able to use my talents and long
             experience to make the products greatly better by{" "}
+            <strong>leading</strong> product design / implementation, <i>or</i>{" "} 
             <strong>coding</strong> very usable applications (front end to back
-            end), <strong>designing</strong> great user experiences and/or
+            end), <i>or</i>{" "}
+            <strong>designing</strong> great user experiences and/or
             making things happen in product management and other agile roles.
           </p>
           <p>To keep on being curious about new things and always learning.</p>
