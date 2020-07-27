@@ -37,10 +37,10 @@ const Dev = () => {
         <strong>Scrum Master</strong> and <strong>Product Owner</strong> roles.
       </p>
       <p>
-        FOr recent year, I have been am working with different projects as an React
+        For recent year, I have been am working with different projects as an React
         frontend developer: for example in a AI data visualization,
         networking/hr application and education open source systems related
-        projects. Newest projects are accounting related.
+        projects. The newest projects are accounting related.
       </p>
       <h3>
         <IoSocialCss3 /> Web development
