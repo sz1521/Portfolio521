@@ -148,6 +148,9 @@ const Ux = () => {
         <li>
           <strong>Accounting</strong>
         </li>
+        <li>
+          <strong>eCommerce</strong> (<a href="https://shopify.com">Shopify</a>)
+        </li>
       </ul>
       <h3>
         <IoIosGameControllerB /> Hobbyish
