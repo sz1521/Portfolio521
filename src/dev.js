@@ -24,7 +24,7 @@ const Dev = () => {
         Combined with my design experience, I am very capable as a{" "}
         <strong>UI/UX Developer</strong> that gets best results for end users.
         In that role, I have worked in projects from Telecom to Healthcare and
-        Government.
+        Government, to eCommerce and finance/accounting.
       </p>
       <p>
         My specialties are fluent co-operation with graphic and UX designers and
@@ -34,13 +34,14 @@ const Dev = () => {
       </p>
       <p>
         I am also very motivated to work in <strong>Lead</strong>,{" "}
-        <strong>Scrum Master</strong> and <strong>Product Owner</strong> roles.
+        <strong>Scrum Master</strong> and <strong>Product Owner</strong> or <strong>Project Manager</strong> roles or as a <strong>Team Lead</strong>. 
+        In the future I am interested in <strong>CTO</strong> or other <strong>C-level roles</strong>.
       </p>
       <p>
         For recent year, I have been am working with different projects as an React
-        frontend developer: for example in a AI data visualization,
+        (lead) frontend developer: for example in a AI data visualization,
         networking/hr application and education open source systems related
-        projects. The newest projects are accounting related.
+        projects. Before current works in eCommerce sector (Shopify), I worked in accounting related project.
       </p>
       <h3>
         <IoSocialCss3 /> Web development
@@ -51,6 +52,7 @@ const Dev = () => {
         <li>React</li>
         <li>JavaScript</li>
         <li>TypeScript</li>
+        <li>Tailwind CSS</li>
         <li>PHP</li>
         <li>MySQL</li>
         <li>Node.js</li>
@@ -82,6 +84,8 @@ const Dev = () => {
         <li>Docker</li>
         <li>Jira</li>
         <li>Jenkins</li>
+        <li>AWS</li>
+        <li>GCP</li>
       </ul>
     </article>
   );

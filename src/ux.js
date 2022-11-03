@@ -14,7 +14,7 @@ const Ux = () => {
       <Element name="uxScroll"></Element>
       <h2>UX Design</h2>
       <p>
-        I have over 15 years of professional experience in UI/UX design. My
+        I have over 20 years of professional experience in UI/UX design. My
         passions are usability and visual quality of user interfaces (
         <strong>desktop</strong>, <strong>web</strong>, <strong>mobile</strong>
         ), I want to provide the best user experience available for end users.
